@@ -1,12 +1,3 @@
-import pandas as pd
-
-def x(a, print_columns=False):
-   b = pd.read_excel(a)
-   column_headers = list(b.columns.values)
-   if print_columns:
-       print("\n".join(column_headers))
-   return column_headers
-
 def celsius_to_kelvin(celsius):
     """
     Function to return Kelvin degrees from Celsius input
