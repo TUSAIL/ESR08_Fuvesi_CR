@@ -11,6 +11,7 @@ Welcome to Balazs' first project's documentation!
    :caption: Contents:
 
    feature-a.md
+   api.rst
 
 Indices and tables
 ==================
